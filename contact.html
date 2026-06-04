@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Kontakt zu SECA Transport Solutions UG – Angebot anfragen, Fragen stellen oder einen Transport beauftragen. Parkstraße 10, 63457 Hanau." />
-  <title>Kontakt – SECA Transport Solutions UG</title>
+  <meta name="description" content="Kontakt zu SECA Transport Solutions UG — Transportanfrage stellen, Angebot erhalten. Parkstraße 10, 63457 Hanau." />
+  <title>Kontakt – SECA Transport Solutions</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -16,20 +16,21 @@
 <nav class="navbar">
   <div class="nav-inner">
     <a href="index.html" class="nav-logo">
-      <div class="logo-icon">
-        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M1 3h15v13H1z M16 8h4l3 3v5h-7V8z M5.5 19a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z M18.5 19a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/></svg>
-      </div>
-      <div class="logo-text">
-        <span class="logo-name">SECA Transport</span>
-        <span class="logo-sub">Solutions UG</span>
-      </div>
+      <img src="images/Seca_Transport_Solutions.png" alt="SECA Transport Solutions"
+           onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+      <span class="nav-logo-fallback" style="display:none;">
+        <span class="nav-logo-icon">
+          <svg viewBox="0 0 24 24"><path d="M1 3h15v13H1z M16 8h4l3 3v5h-7V8z M5.5 19a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z M18.5 19a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/></svg>
+        </span>
+        <span class="nav-logo-text">SECA <span>Transport</span></span>
+      </span>
     </a>
     <ul class="nav-menu">
       <li><a href="index.html" class="nav-link">Startseite</a></li>
       <li><a href="about.html" class="nav-link">Über uns</a></li>
       <li><a href="services.html" class="nav-link">Leistungen</a></li>
       <li><a href="contact.html" class="nav-link">Kontakt</a></li>
-      <li><a href="contact.html" class="btn btn-primary nav-cta">Angebot anfragen</a></li>
+      <li><a href="contact.html" class="btn btn-primary nav-cta">Anfrage stellen</a></li>
     </ul>
     <button class="hamburger" aria-label="Menü öffnen">
       <span></span><span></span><span></span>
@@ -41,198 +42,161 @@
 <header class="page-header">
   <div class="container">
     <div class="breadcrumb">
-      <a href="index.html">Startseite</a>
-      <span>›</span>
-      <span>Kontakt</span>
+      <a href="index.html">Startseite</a><span>›</span><span>Kontakt</span>
     </div>
-    <h1>Nehmen Sie <span style="color:var(--orange)">Kontakt</span> auf</h1>
-    <p>Wir freuen uns auf Ihre Anfrage. Unser Team steht Ihnen für Fragen, Angebote und Transportaufträge gerne zur Verfügung.</p>
+    <h1>Kontakt &amp; Anfrage</h1>
+    <p>Sprechen Sie direkt mit uns. Wir antworten schnell und unkompliziert — kein Callcenter, kein Umweg.</p>
   </div>
 </header>
 
-<!-- Contact Section -->
+<!-- Contact -->
 <section class="section">
   <div class="container">
-    <div class="contact-grid">
-      <!-- Contact Info -->
-      <div class="contact-info">
-        <div class="section-tag">Kontaktinformationen</div>
-        <h2 style="margin-top:0.75rem;margin-bottom:1.5rem;">So erreichen<br>Sie uns</h2>
+    <div class="contact-layout">
 
-        <div class="contact-item fade-in">
-          <div class="contact-item-icon">
-            <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      <!-- Info -->
+      <div class="contact-sidebar fade-in">
+        <h2>So erreichen<br />Sie uns</h2>
+        <p>Für Anfragen, Angebote oder Fragen stehen wir Ihnen persönlich zur Verfügung. Wir freuen uns auf Ihre Nachricht.</p>
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div class="contact-item-content">
+              <h4>Adresse</h4>
+              <p>Parkstraße 10<br />63457 Hanau</p>
+            </div>
           </div>
-          <div class="contact-item-text">
-            <h4>Adresse</h4>
-            <p>SECA Transport Solutions UG (haftungsbeschränkt)<br>Parkstraße 10<br>63457 Hanau</p>
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div class="contact-item-content">
+              <h4>E-Mail</h4>
+              <p><a href="mailto:info@seca-transport.de">info@seca-transport.de</a></p>
+            </div>
           </div>
-        </div>
-
-        <div class="contact-item fade-in">
-          <div class="contact-item-icon">
-            <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13.1a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.06 6.06l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 17z"/></svg>
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13.1 19.79 19.79 0 0 1 1.62 4.48 2 2 0 0 1 3.6 2.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.06 6.06l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 17z"/></svg>
+            </div>
+            <div class="contact-item-content">
+              <h4>Telefon</h4>
+              <p>Wird in Kürze bekannt gegeben</p>
+            </div>
           </div>
-          <div class="contact-item-text">
-            <h4>Telefon</h4>
-            <p><a href="tel:+49" style="color:var(--text-primary)">Auf Anfrage verfügbar</a></p>
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div class="contact-item-content">
+              <h4>Erreichbarkeit</h4>
+              <p>Mo – Fr: 07:00 – 19:00 Uhr<br />Sa: 08:00 – 14:00 Uhr<br /><span style="color:var(--blue);font-size:0.85rem;">Dringende Anfragen: auch außerhalb</span></p>
+            </div>
           </div>
-        </div>
-
-        <div class="contact-item fade-in">
-          <div class="contact-item-icon">
-            <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-          </div>
-          <div class="contact-item-text">
-            <h4>E-Mail</h4>
-            <p><a href="mailto:info@seca-transport.de" style="color:var(--text-primary)">info@seca-transport.de</a></p>
-          </div>
-        </div>
-
-        <div class="contact-item fade-in">
-          <div class="contact-item-icon">
-            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-          </div>
-          <div class="contact-item-text">
-            <h4>Geschäftszeiten</h4>
-            <p>Mo – Fr: 07:00 – 19:00 Uhr<br>Sa: 08:00 – 14:00 Uhr<br>
-            <span style="color:var(--orange);font-size:0.85rem;">Notfälle: 24/7 auf Anfrage</span></p>
-          </div>
-        </div>
-
-        <!-- Quick info box -->
-        <div class="card" style="margin-top:0.5rem;">
-          <h4 style="margin-bottom:0.75rem;color:var(--orange);">Schnelle Antwortzeit</h4>
-          <p style="font-size:0.875rem;">Wir antworten auf E-Mail-Anfragen in der Regel innerhalb von 2 Stunden während der Geschäftszeiten. Für dringende Anfragen empfehlen wir den telefonischen Kontakt.</p>
         </div>
       </div>
 
-      <!-- Contact Form -->
-      <div class="contact-form-card fade-in">
-        <h3 style="margin-bottom:0.5rem;">Transportanfrage stellen</h3>
-        <p style="font-size:0.875rem;margin-bottom:1.5rem;">Füllen Sie das Formular aus und wir melden uns schnellstmöglich bei Ihnen.</p>
+      <!-- Form -->
+      <div class="contact-form-wrap fade-in">
+        <h3>Transportanfrage stellen</h3>
+        <p>Füllen Sie das Formular aus — wir melden uns schnellstmöglich bei Ihnen.</p>
         <form id="contact-form">
           <div class="form-row">
             <div class="form-group">
-              <label for="vorname">Vorname *</label>
-              <input type="text" id="vorname" name="vorname" placeholder="Max" required />
+              <label for="firmenname">Firmenname <span class="req">*</span></label>
+              <input type="text" id="firmenname" name="firmenname" placeholder="Musterfirma GmbH" required />
             </div>
             <div class="form-group">
-              <label for="nachname">Nachname *</label>
-              <input type="text" id="nachname" name="nachname" placeholder="Mustermann" required />
+              <label for="ansprechpartner">Ansprechpartner <span class="req">*</span></label>
+              <input type="text" id="ansprechpartner" name="ansprechpartner" placeholder="Max Mustermann" required />
             </div>
-          </div>
-          <div class="form-group">
-            <label for="firma">Unternehmen</label>
-            <input type="text" id="firma" name="firma" placeholder="Musterfirma GmbH" />
           </div>
           <div class="form-row">
             <div class="form-group">
-              <label for="email">E-Mail *</label>
+              <label for="email">E-Mail <span class="req">*</span></label>
               <input type="email" id="email" name="email" placeholder="max@musterfirma.de" required />
             </div>
             <div class="form-group">
-              <label for="telefon">Telefon</label>
-              <input type="tel" id="telefon" name="telefon" placeholder="+49 6181 …" />
+              <label for="telefon">Telefon <span class="req">*</span></label>
+              <input type="tel" id="telefon" name="telefon" placeholder="+49 6181 …" required />
             </div>
-          </div>
-          <div class="form-group">
-            <label for="leistung">Gewünschte Leistung *</label>
-            <select id="leistung" name="leistung" required>
-              <option value="" disabled selected>Bitte wählen …</option>
-              <option>Kurierfahrt / Expresslieferung</option>
-              <option>Direkttransport Deutschland</option>
-              <option>EU-Transport</option>
-              <option>Sondertransport</option>
-              <option>Regelmäßige Transporte</option>
-              <option>Sonstiges</option>
-            </select>
           </div>
           <div class="form-row">
             <div class="form-group">
-              <label for="abholort">Abholort / PLZ *</label>
-              <input type="text" id="abholort" name="abholort" placeholder="z.B. 63457 Hanau" required />
+              <label for="abholort">Abholort</label>
+              <input type="text" id="abholort" name="abholort" placeholder="z.B. 63457 Hanau" />
             </div>
             <div class="form-group">
-              <label for="zielort">Zielort / PLZ *</label>
-              <input type="text" id="zielort" name="zielort" placeholder="z.B. 80331 München" required />
+              <label for="lieferort">Lieferort</label>
+              <input type="text" id="lieferort" name="lieferort" placeholder="z.B. 80331 München" />
             </div>
           </div>
           <div class="form-group">
-            <label for="nachricht">Ihre Nachricht / Details</label>
-            <textarea id="nachricht" name="nachricht" placeholder="Beschreiben Sie Ihr Transportgut, Gewicht, besondere Anforderungen, gewünschten Liefertermin …"></textarea>
+            <label for="wunschtermin">Wunschtermin</label>
+            <input type="date" id="wunschtermin" name="wunschtermin" />
           </div>
-          <div class="form-group" style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:1.5rem;">
-            <input type="checkbox" id="datenschutz" name="datenschutz" required style="width:18px;height:18px;flex-shrink:0;margin-top:2px;" />
-            <label for="datenschutz" style="font-size:0.8rem;color:var(--text-muted);line-height:1.5;">
-              Ich habe die <a href="datenschutz.html">Datenschutzerklärung</a> gelesen und stimme der Verarbeitung meiner Daten zur Bearbeitung meiner Anfrage zu. *
+          <div class="form-group">
+            <label for="nachricht">Nachricht / Details zur Sendung</label>
+            <textarea id="nachricht" name="nachricht" placeholder="Beschreiben Sie Ihr Transportgut, das Gewicht, besondere Anforderungen oder sonstige Details …"></textarea>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" id="datenschutz" name="datenschutz" required />
+            <label for="datenschutz">
+              Ich habe die <a href="datenschutz.html">Datenschutzerklärung</a> gelesen und stimme der Verarbeitung meiner Daten zur Bearbeitung meiner Anfrage zu. <span class="req">*</span>
             </label>
           </div>
-          <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;font-size:1rem;padding:1rem;">
+          <button type="submit" class="btn btn-primary form-submit">
             Anfrage absenden →
           </button>
-          <p style="font-size:0.75rem;color:var(--text-muted);text-align:center;margin-top:1rem;">* Pflichtfelder. Wir antworten in der Regel innerhalb von 2 Stunden.</p>
+          <p style="font-size:0.75rem;color:var(--gray-400);text-align:center;margin-top:1rem;margin-bottom:0;">
+            <span class="req">*</span> Pflichtfelder. Antwort in der Regel innerhalb von 2 Stunden.
+          </p>
         </form>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Map Placeholder -->
+<!-- Map -->
 <section class="section section-alt">
   <div class="container">
-    <div class="section-header fade-in">
-      <div class="section-tag">Standort</div>
-      <h2>Unser Standort in Hanau</h2>
-      <div class="divider"></div>
-    </div>
     <div class="fade-in" style="
-      background: var(--navy-card);
-      border: 1px solid rgba(255,255,255,0.07);
-      border-radius: var(--radius-lg);
+      background: var(--bg);
+      border: 1px solid var(--gray-100);
+      border-radius: var(--radius-xl);
       overflow: hidden;
-      position: relative;
     ">
-      <!-- Map placeholder with styled representation -->
       <div style="
-        height: 350px;
+        height: 320px;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        gap: 1.5rem;
-        background: linear-gradient(135deg, var(--navy-mid) 0%, var(--navy-card) 100%);
+        gap: 1.25rem;
+        background: var(--blue-bg);
         position: relative;
         overflow: hidden;
       ">
-        <!-- Grid lines for map feel -->
-        <div style="position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,0.03) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.03) 1px,transparent 1px);background-size:30px 30px;"></div>
-        <!-- Pin icon -->
+        <div style="position:absolute;inset:0;background-image:linear-gradient(rgba(107,127,227,0.06) 1px,transparent 1px),linear-gradient(90deg,rgba(107,127,227,0.06) 1px,transparent 1px);background-size:30px 30px;"></div>
         <div style="
-          width: 64px;
-          height: 64px;
-          background: var(--orange);
+          width: 56px; height: 56px;
+          background: var(--blue);
           border-radius: 50% 50% 50% 0;
           transform: rotate(-45deg);
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          box-shadow: 0 8px 32px rgba(245,158,11,0.5);
-          position: relative;
-          z-index: 1;
+          display: flex; align-items: center; justify-content: center;
+          box-shadow: 0 8px 24px rgba(107,127,227,0.4);
+          position: relative; z-index: 1;
         ">
-          <div style="transform:rotate(45deg);width:20px;height:20px;background:var(--navy);border-radius:50%;"></div>
+          <div style="transform:rotate(45deg);width:18px;height:18px;background:white;border-radius:50%;"></div>
         </div>
         <div style="text-align:center;position:relative;z-index:1;">
-          <h3 style="margin-bottom:0.5rem;">SECA Transport Solutions UG</h3>
-          <p style="color:var(--text-muted);font-size:0.9rem;">Parkstraße 10, 63457 Hanau</p>
-          <a
-            href="https://www.google.com/maps/search/Parkstraße+10+63457+Hanau"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="btn btn-primary"
-            style="margin-top:1rem;"
-          >
+          <h3 style="margin-bottom:0.25rem;">SECA Transport Solutions UG</h3>
+          <p style="margin:0;color:var(--gray-600);">Parkstraße 10, 63457 Hanau</p>
+          <a href="https://www.google.com/maps/search/Parkstraße+10+63457+Hanau"
+             target="_blank" rel="noopener noreferrer"
+             class="btn btn-primary" style="margin-top:1.25rem;">
             In Google Maps öffnen →
           </a>
         </div>
@@ -246,16 +210,17 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <a href="index.html" class="nav-logo" style="display:inline-flex;">
-          <div class="logo-icon">
-            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M1 3h15v13H1z M16 8h4l3 3v5h-7V8z M5.5 19a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z M18.5 19a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/></svg>
+        <div class="footer-logo">
+          <img src="images/Seca_Transport_Solutions.png" alt="SECA Transport Solutions"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+          <div class="footer-logo-fallback" style="display:none;">
+            <div class="footer-logo-icon">
+              <svg viewBox="0 0 24 24"><path d="M1 3h15v13H1z M16 8h4l3 3v5h-7V8z M5.5 19a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z M18.5 19a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/></svg>
+            </div>
+            <span class="footer-logo-name">SECA Transport Solutions</span>
           </div>
-          <div class="logo-text">
-            <span class="logo-name">SECA Transport</span>
-            <span class="logo-sub">Solutions UG</span>
-          </div>
-        </a>
-        <p>Ihr zuverlässiger Partner für Transport und Logistik in Deutschland und ganz Europa. Fahrzeuge bis 3,5 Tonnen – flexibel, schnell, verlässlich.</p>
+        </div>
+        <p>Schnelle, zuverlässige Transporte bis 3,5t — deutschlandweit und persönlich betreut. Standort: Hanau.</p>
       </div>
       <div class="footer-col">
         <h4>Navigation</h4>
@@ -269,10 +234,10 @@
       <div class="footer-col">
         <h4>Leistungen</h4>
         <ul>
-          <li><a href="services.html">Kurierfahrten</a></li>
-          <li><a href="services.html">Direkttransporte</a></li>
-          <li><a href="services.html">EU-Transporte</a></li>
-          <li><a href="services.html">Sondertransporte</a></li>
+          <li><a href="services.html">Kuriertransporte</a></li>
+          <li><a href="services.html">Direktfahrten</a></li>
+          <li><a href="services.html">Expresslieferungen</a></li>
+          <li><a href="services.html">Sonderfahrten</a></li>
         </ul>
       </div>
       <div class="footer-col">
@@ -297,7 +262,6 @@
 <button class="scroll-top" aria-label="Nach oben scrollen">
   <svg viewBox="0 0 24 24"><polyline points="18 15 12 9 6 15"/></svg>
 </button>
-
 <script src="js/main.js"></script>
 </body>
 </html>
