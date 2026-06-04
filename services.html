@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Leistungen von SECA Transport Solutions UG – Kurier, Direkttransporte, EU-Logistik, Sondertransporte. Fahrzeuge bis 3,5t." />
-  <title>Leistungen – SECA Transport Solutions UG</title>
+  <meta name="description" content="Leistungen von SECA Transport Solutions — Kuriertransporte, Direktfahrten, Expresslieferungen, Sonderfahrten. Deutschlandweit bis 3,5t." />
+  <title>Leistungen – SECA Transport Solutions</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -16,20 +16,21 @@
 <nav class="navbar">
   <div class="nav-inner">
     <a href="index.html" class="nav-logo">
-      <div class="logo-icon">
-        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M1 3h15v13H1z M16 8h4l3 3v5h-7V8z M5.5 19a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z M18.5 19a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/></svg>
-      </div>
-      <div class="logo-text">
-        <span class="logo-name">SECA Transport</span>
-        <span class="logo-sub">Solutions UG</span>
-      </div>
+      <img src="Seca%20Transport%20Solutions.png" alt="SECA Transport Solutions"
+           onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+      <span class="nav-logo-fallback" style="display:none;">
+        <span class="nav-logo-icon">
+          <svg viewBox="0 0 24 24"><path d="M1 3h15v13H1z M16 8h4l3 3v5h-7V8z M5.5 19a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z M18.5 19a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/></svg>
+        </span>
+        <span class="nav-logo-text">SECA <span>Transport</span></span>
+      </span>
     </a>
     <ul class="nav-menu">
       <li><a href="index.html" class="nav-link">Startseite</a></li>
       <li><a href="about.html" class="nav-link">Über uns</a></li>
       <li><a href="services.html" class="nav-link">Leistungen</a></li>
       <li><a href="contact.html" class="nav-link">Kontakt</a></li>
-      <li><a href="contact.html" class="btn btn-primary nav-cta">Angebot anfragen</a></li>
+      <li><a href="contact.html" class="btn btn-primary nav-cta">Anfrage stellen</a></li>
     </ul>
     <button class="hamburger" aria-label="Menü öffnen">
       <span></span><span></span><span></span>
@@ -41,60 +42,64 @@
 <header class="page-header">
   <div class="container">
     <div class="breadcrumb">
-      <a href="index.html">Startseite</a>
-      <span>›</span>
-      <span>Leistungen</span>
+      <a href="index.html">Startseite</a><span>›</span><span>Leistungen</span>
     </div>
-    <h1>Unsere <span style="color:var(--orange)">Leistungen</span></h1>
-    <p>Von der Kurierfahrt bis zum europaweiten Direkttransport – wir bieten das gesamte Spektrum an Transportlösungen für Ihr Unternehmen.</p>
+    <h1>Unsere Leistungen</h1>
+    <p>Von der Kurierfahrt bis zur maßgeschneiderten Logistiklösung — wir transportieren zuverlässig, schnell und persönlich.</p>
   </div>
 </header>
 
-<!-- Service Overview Cards -->
+<!-- Services Overview -->
 <section class="section">
   <div class="container">
-    <div class="cards-grid">
-      <div class="card fade-in fade-in-delay-1">
-        <div class="card-icon">
-          <svg viewBox="0 0 24 24"><polyline points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
-        </div>
-        <h3>Expresslieferung</h3>
-        <p>Wenn es schnell gehen muss: Unsere Expresslieferungen sorgen dafür, dass Ihre dringenden Sendungen das Ziel in kürzester Zeit erreichen.</p>
-      </div>
-      <div class="card fade-in fade-in-delay-2">
-        <div class="card-icon">
+    <div class="services-grid">
+      <div class="service-card fade-in fade-in-delay-1">
+        <div class="service-num">01</div>
+        <div class="service-icon">
           <svg viewBox="0 0 24 24"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
         </div>
-        <h3>Direkttransport</h3>
-        <p>Keine Umwege, keine Zwischenstopps. Ihre Fracht geht direkt von der Abholstelle zum Zielort – für maximale Geschwindigkeit und Sicherheit.</p>
+        <h3>Kuriertransporte</h3>
+        <p>Schnelle, direkte Lieferungen von A nach B — zuverlässig und termingerecht.</p>
       </div>
-      <div class="card fade-in fade-in-delay-3">
-        <div class="card-icon">
+      <div class="service-card fade-in fade-in-delay-2">
+        <div class="service-num">02</div>
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </div>
+        <h3>Direktfahrten &amp; Routenfahrten</h3>
+        <p>Ob einmalige Direktfahrt oder regelmäßige Routenfahrt — wir fahren nach Ihrem Zeitplan, zuverlässig und flexibel.</p>
+      </div>
+      <div class="service-card fade-in fade-in-delay-3">
+        <div class="service-num">03</div>
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><polyline points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+        </div>
+        <h3>Expresslieferungen</h3>
+        <p>Zeitkritische Sendungen erfordern besondere Sorgfalt. Unser Expressdienst garantiert schnellste Laufzeiten — auch über Nacht und am Wochenende.</p>
+      </div>
+      <div class="service-card fade-in fade-in-delay-1">
+        <div class="service-num">04</div>
+        <div class="service-icon">
           <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
         </div>
-        <h3>EU-Transporte</h3>
-        <p>Grenzüberschreitende Transporte in alle EU-Mitgliedsstaaten. Mit allen erforderlichen Genehmigungen und Dokumentationen.</p>
+        <h3>Sonderfahrten</h3>
+        <p>Kurzfristig, außerhalb der Norm oder zu ungewöhnlichen Zeiten — wir sind auch dann für Sie da, wenn andere nicht fahren.</p>
       </div>
-      <div class="card fade-in fade-in-delay-1">
-        <div class="card-icon">
-          <svg viewBox="0 0 24 24"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
-        </div>
-        <h3>Sondertransporte</h3>
-        <p>Für außergewöhnliche Anforderungen: Spezialisierte Handhabung, besondere Transportbedingungen, Termingarantien.</p>
-      </div>
-      <div class="card fade-in fade-in-delay-2">
-        <div class="card-icon">
+      <div class="service-card fade-in fade-in-delay-2">
+        <div class="service-num">05</div>
+        <div class="service-icon">
           <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
         </div>
-        <h3>Nahverkehr &amp; Citylogistik</h3>
-        <p>Schnelle und flexible Lieferungen im Stadtgebiet und der näheren Umgebung. Ideal für zeitkritische urbane Lieferungen.</p>
+        <h3>Deutschlandweite Abholung &amp; Lieferung</h3>
+        <p>Wir holen ab und liefern — deutschlandweit, persönlich betreut von Anfang bis Ende.</p>
       </div>
-      <div class="card fade-in fade-in-delay-3">
-        <div class="card-icon">
+      <div class="service-card fade-in fade-in-delay-3">
+        <div class="service-num">06</div>
+        <div class="service-icon">
           <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
         </div>
-        <h3>Versicherter Transport</h3>
-        <p>Alle Transporte vollumfänglich versichert. Wir übernehmen die Verantwortung für Ihre Waren – von der Abholung bis zur Übergabe.</p>
+        <h3>Individuelle Logistiklösungen</h3>
+        <p>Sondertransporte, sensible Güter — wir entwickeln maßgeschneiderte Lösungen für Ihre speziellen Anforderungen und besprechen jeden Auftrag persönlich.</p>
       </div>
     </div>
   </div>
@@ -108,140 +113,100 @@
       <h2>Unsere Kernleistungen</h2>
       <div class="divider"></div>
     </div>
+    <div class="services-detail-list">
 
-    <!-- Service 1 -->
-    <div class="service-detail fade-in">
-      <div class="service-detail-content">
-        <div class="section-tag">01 — Kurierfahrten</div>
-        <h2 style="margin-top:0.75rem;margin-bottom:1rem;">Schnelle Kurierfahrten</h2>
-        <p>Unsere Kurierfahrten zeichnen sich durch Schnelligkeit und Zuverlässigkeit aus. Ob dringende Geschäftsdokumente, Ersatzteile oder sensible Güter – wir transportieren Ihre Sendungen mit höchster Sorgfalt und Priorität.</p>
-        <p>Mit unserem Expressnetzwerk erreichen wir alle wichtigen Standorte in Deutschland innerhalb kürzester Zeit.</p>
-        <div class="service-feature-list">
-          <div class="feature-item">Same-Day-Lieferung auf Anfrage</div>
-          <div class="feature-item">Direktabholung beim Absender</div>
-          <div class="feature-item">Persönliche Übergabe beim Empfänger</div>
-          <div class="feature-item">Lieferbestätigung &amp; Sendungsverfolgung</div>
-          <div class="feature-item">Flexible Zeitfenster</div>
+      <!-- 1 -->
+      <div class="service-detail-item fade-in">
+        <div class="service-detail-visual">
+          <img src="https://images.unsplash.com/photo-1519003722824-194d4455a60c?w=800&q=80"
+               alt="Kuriertransporte" loading="lazy" />
+        </div>
+        <div class="service-detail-content">
+          <div class="section-tag">01 — Kuriertransporte</div>
+          <h2>Schnell. Direkt. Sicher.</h2>
+          <p>Unsere Kurierfahrten zeichnen sich durch höchste Zuverlässigkeit und kurze Reaktionszeiten aus. Ob dringende Geschäftsdokumente, Ersatzteile oder zeitkritische Güter — Ihre Sendung geht direkt ans Ziel.</p>
+          <div class="feature-list">
+            <div class="feature-item">Direktabholung beim Absender</div>
+            <div class="feature-item">Persönliche Übergabe beim Empfänger</div>
+            <div class="feature-item">Same-Day-Lieferung auf Anfrage</div>
+            <div class="feature-item">Lieferbestätigung inklusive</div>
+          </div>
         </div>
       </div>
-      <div class="service-detail-visual">
-        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" style="width:180px;height:180px;opacity:0.6;">
-          <circle cx="100" cy="100" r="90" stroke="#f59e0b" stroke-width="1" fill="none" opacity="0.2"/>
-          <circle cx="100" cy="100" r="70" stroke="#f59e0b" stroke-width="1" fill="none" opacity="0.15"/>
-          <path d="M30 100 L100 30 L170 100" stroke="#f59e0b" stroke-width="2" fill="none" stroke-linecap="round"/>
-          <polyline points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" transform="translate(78,78) scale(1.8)" stroke="#f59e0b" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-      </div>
-    </div>
 
-    <!-- Service 2 -->
-    <div class="service-detail reverse fade-in">
-      <div class="service-detail-content">
-        <div class="section-tag">02 — Direkttransporte</div>
-        <h2 style="margin-top:0.75rem;margin-bottom:1rem;">Direkttransporte Deutschland &amp; Europa</h2>
-        <p>Unsere Direkttransporte verbinden Ihren Standort direkt mit dem Zielort – ohne Umwege, ohne Umladungen, ohne Verzögerungen. Ihre Fracht bleibt vom Beladen bis zur Ankunft im gleichen Fahrzeug.</p>
-        <p>Ideal für empfindliche Güter, zeitkritische Lieferungen und Sendungen mit besonderen Anforderungen.</p>
-        <div class="service-feature-list">
-          <div class="feature-item">Keine Umladung – direkt ans Ziel</div>
-          <div class="feature-item">Fahrzeuge bis 3,5 Tonnen Gesamtgewicht</div>
-          <div class="feature-item">Terminzusage bei Auftragserteilung</div>
-          <div class="feature-item">Ladungssicherung nach DGUV-Vorschrift</div>
-          <div class="feature-item">Echtzeitinformation über Lieferstatus</div>
+      <!-- 2 -->
+      <div class="service-detail-item reverse fade-in">
+        <div class="service-detail-visual">
+          <div class="service-detail-visual-placeholder">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+        </div>
+        <div class="service-detail-content">
+          <div class="section-tag">02 — Direktfahrten &amp; Routenfahrten</div>
+          <h2>Flexibel nach Ihrem Zeitplan.</h2>
+          <p>Wir passen uns Ihrem Betrieb an — nicht umgekehrt. Einmalige Direktfahrten oder regelmäßige Routenfahrten: Wir fahren, wann und wohin Sie es brauchen.</p>
+          <div class="feature-list">
+            <div class="feature-item">Flexible Abfahrtszeiten nach Wunsch</div>
+            <div class="feature-item">Regelmäßige Routen planbar</div>
+            <div class="feature-item">Keine Umladung — direkt ans Ziel</div>
+            <div class="feature-item">Persönliche Abstimmung vorab</div>
+          </div>
         </div>
       </div>
-      <div class="service-detail-visual">
-        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" style="width:180px;height:180px;opacity:0.6;">
-          <rect x="10" y="70" width="120" height="80" rx="6" stroke="#f59e0b" stroke-width="1.5" fill="none"/>
-          <polygon points="130 90 160 90 180 110 180 150 130 150" stroke="#f59e0b" stroke-width="1.5" fill="none"/>
-          <circle cx="50" cy="160" r="18" stroke="#f59e0b" stroke-width="1.5" fill="none"/>
-          <circle cx="50" cy="160" r="8" fill="#f59e0b" opacity="0.3"/>
-          <circle cx="155" cy="160" r="18" stroke="#f59e0b" stroke-width="1.5" fill="none"/>
-          <circle cx="155" cy="160" r="8" fill="#f59e0b" opacity="0.3"/>
-          <line x1="10" y1="130" x2="0" y2="130" stroke="#f59e0b" stroke-width="1" opacity="0.5"/>
-          <text x="40" y="115" font-family="Inter" font-size="10" fill="#f59e0b" opacity="0.6">SECA</text>
-        </svg>
-      </div>
-    </div>
 
-    <!-- Service 3 -->
-    <div class="service-detail fade-in">
-      <div class="service-detail-content">
-        <div class="section-tag">03 — EU-Transporte</div>
-        <h2 style="margin-top:0.75rem;margin-bottom:1rem;">Europaweite Transportlösungen</h2>
-        <p>Grenzen sind für uns kein Hindernis. Mit allen erforderlichen Transportgenehmigungen und umfangreicher Erfahrung in grenzüberschreitenden Transporten bringen wir Ihre Waren sicher ans Ziel – in der gesamten Europäischen Union.</p>
-        <p>Zuverlässige Partner in wichtigen EU-Ländern ermöglichen uns reibungslose internationale Lieferketten.</p>
-        <div class="service-feature-list">
-          <div class="feature-item">Alle EU-Mitgliedsstaaten</div>
-          <div class="feature-item">Vollständige Zoll- und Zolldokumentation</div>
-          <div class="feature-item">Mehrsprachige Kommunikation</div>
-          <div class="feature-item">Internationale Versicherungsdeckung</div>
-          <div class="feature-item">Erfahrene Fahrer mit internationaler Erfahrung</div>
+      <!-- 3 -->
+      <div class="service-detail-item fade-in">
+        <div class="service-detail-visual">
+          <div class="service-detail-visual-placeholder">
+            <svg viewBox="0 0 24 24"><polyline points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          </div>
+        </div>
+        <div class="service-detail-content">
+          <div class="section-tag">03 — Expresslieferungen</div>
+          <h2>Wenn jede Stunde zählt.</h2>
+          <p>Zeitkritische Sendungen erfordern besondere Sorgfalt und Schnelligkeit. Unser Expressdienst garantiert schnellste Laufzeiten — auch über Nacht, an Wochenenden und Feiertagen.</p>
+          <div class="feature-list">
+            <div class="feature-item">Lieferung auch über Nacht</div>
+            <div class="feature-item">Wochenend- und Feiertagsservice</div>
+            <div class="feature-item">Höchste Priorität für Ihre Sendung</div>
+            <div class="feature-item">Termingarantie auf Anfrage</div>
+          </div>
         </div>
       </div>
-      <div class="service-detail-visual">
-        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" style="width:180px;height:180px;opacity:0.6;">
-          <circle cx="100" cy="100" r="85" stroke="#f59e0b" stroke-width="1.5" fill="none"/>
-          <ellipse cx="100" cy="100" rx="45" ry="85" stroke="#f59e0b" stroke-width="1" fill="none" opacity="0.5"/>
-          <line x1="15" y1="100" x2="185" y2="100" stroke="#f59e0b" stroke-width="1" opacity="0.4"/>
-          <line x1="30" y1="60" x2="170" y2="60" stroke="#f59e0b" stroke-width="1" opacity="0.3"/>
-          <line x1="30" y1="140" x2="170" y2="140" stroke="#f59e0b" stroke-width="1" opacity="0.3"/>
-          <circle cx="100" cy="100" r="5" fill="#f59e0b"/>
-          <circle cx="60" cy="75" r="3" fill="#f59e0b" opacity="0.7"/>
-          <circle cx="140" cy="65" r="3" fill="#f59e0b" opacity="0.7"/>
-          <circle cx="130" cy="130" r="3" fill="#f59e0b" opacity="0.7"/>
-        </svg>
-      </div>
-    </div>
-  </div>
-</section>
 
-<!-- Vehicle Info -->
-<section class="section">
-  <div class="container">
-    <div class="section-header fade-in">
-      <div class="section-tag">Fuhrpark</div>
-      <h2>Unser Fahrzeugpark</h2>
-      <div class="divider"></div>
-      <p>Moderne, gewartete Fahrzeuge bis 3,5 Tonnen für jeden Transportbedarf – stets zuverlässig und gut ausgestattet.</p>
-    </div>
-    <div class="cards-grid">
-      <div class="card fade-in fade-in-delay-1" style="text-align:center;">
-        <div style="font-size:3rem;margin-bottom:1rem;">🚐</div>
-        <h3>Transporter</h3>
-        <p>Kompakte Transporter für städtische Lieferungen und schnelle Kurierfahrten. Wendig und effizient im Stadtverkehr.</p>
-        <div style="margin-top:1rem;padding-top:1rem;border-top:1px solid rgba(255,255,255,0.07);">
-          <span style="color:var(--orange);font-weight:600;font-size:0.85rem;">bis 1.500 kg Nutzlast</span>
+      <!-- 4 -->
+      <div class="service-detail-item reverse fade-in">
+        <div class="service-detail-visual">
+          <div class="service-detail-visual-placeholder">
+            <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+        </div>
+        <div class="service-detail-content">
+          <div class="section-tag">04–06 — Weitere Leistungen</div>
+          <h2>Sonderfahrten &amp; individuelle Lösungen.</h2>
+          <p>Kurzfristig, außerhalb der Norm oder zu ungewöhnlichen Zeiten — wir sind auch dann für Sie da, wenn andere nicht fahren. Sondertransporte, sensible Güter, maßgeschneiderte Lösungen — wir besprechen jeden Auftrag persönlich mit Ihnen.</p>
+          <div class="feature-list">
+            <div class="feature-item">Sonderfahrten auf kurzfristige Anfrage</div>
+            <div class="feature-item">Deutschlandweite Abholung &amp; Lieferung</div>
+            <div class="feature-item">Individuelle Logistiklösungen</div>
+            <div class="feature-item">Persönliche Beratung für jeden Auftrag</div>
+          </div>
         </div>
       </div>
-      <div class="card fade-in fade-in-delay-2" style="text-align:center;">
-        <div style="font-size:3rem;margin-bottom:1rem;">🚛</div>
-        <h3>Kastenwagen groß</h3>
-        <p>Große Kastenwagen für mittlere bis größere Sendungen. Ideal für Palettentransporte und sperrige Güter.</p>
-        <div style="margin-top:1rem;padding-top:1rem;border-top:1px solid rgba(255,255,255,0.07);">
-          <span style="color:var(--orange);font-weight:600;font-size:0.85rem;">bis 2.500 kg Nutzlast</span>
-        </div>
-      </div>
-      <div class="card fade-in fade-in-delay-3" style="text-align:center;">
-        <div style="font-size:3rem;margin-bottom:1rem;">🚚</div>
-        <h3>Pritschenwagen / LKW 3,5t</h3>
-        <p>Fahrzeuge bis 3,5 Tonnen für größere Ladungen, Langstrecken und europaweite Transporte.</p>
-        <div style="margin-top:1rem;padding-top:1rem;border-top:1px solid rgba(255,255,255,0.07);">
-          <span style="color:var(--orange);font-weight:600;font-size:0.85rem;">bis 3.500 kg Gesamtgewicht</span>
-        </div>
-      </div>
+
     </div>
   </div>
 </section>
 
 <!-- CTA -->
-<section class="section section-alt">
+<section class="section">
   <div class="container">
     <div class="cta-banner fade-in">
-      <h2>Maßgeschneiderte Lösung gewünscht?</h2>
-      <p>Jeder Transport ist anders. Kontaktieren Sie uns und wir finden gemeinsam die optimale Lösung für Ihre individuellen Anforderungen.</p>
+      <h2>Haben Sie einen speziellen Bedarf?</h2>
+      <p>Kein Transport ist zu ungewöhnlich. Sprechen Sie uns an — wir finden gemeinsam die passende Lösung.</p>
       <div class="cta-actions">
-        <a href="contact.html" class="btn btn-primary btn-lg">Jetzt Anfrage stellen</a>
-        <a href="about.html" class="btn btn-outline btn-lg">Mehr über uns</a>
+        <a href="contact.html" class="btn btn-white btn-lg">Jetzt Anfrage stellen</a>
+        <a href="about.html" class="btn btn-outline-white btn-lg">Mehr über uns</a>
       </div>
     </div>
   </div>
@@ -252,16 +217,17 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <a href="index.html" class="nav-logo" style="display:inline-flex;">
-          <div class="logo-icon">
-            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M1 3h15v13H1z M16 8h4l3 3v5h-7V8z M5.5 19a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z M18.5 19a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/></svg>
+        <div class="footer-logo">
+          <img src="Seca%20Transport%20Solutions.png" alt="SECA Transport Solutions"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+          <div class="footer-logo-fallback" style="display:none;">
+            <div class="footer-logo-icon">
+              <svg viewBox="0 0 24 24"><path d="M1 3h15v13H1z M16 8h4l3 3v5h-7V8z M5.5 19a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z M18.5 19a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/></svg>
+            </div>
+            <span class="footer-logo-name">SECA Transport Solutions</span>
           </div>
-          <div class="logo-text">
-            <span class="logo-name">SECA Transport</span>
-            <span class="logo-sub">Solutions UG</span>
-          </div>
-        </a>
-        <p>Ihr zuverlässiger Partner für Transport und Logistik in Deutschland und ganz Europa. Fahrzeuge bis 3,5 Tonnen – flexibel, schnell, verlässlich.</p>
+        </div>
+        <p>Schnelle, zuverlässige Transporte bis 3,5t — deutschlandweit und persönlich betreut. Standort: Hanau.</p>
       </div>
       <div class="footer-col">
         <h4>Navigation</h4>
@@ -275,10 +241,10 @@
       <div class="footer-col">
         <h4>Leistungen</h4>
         <ul>
-          <li><a href="services.html">Kurierfahrten</a></li>
-          <li><a href="services.html">Direkttransporte</a></li>
-          <li><a href="services.html">EU-Transporte</a></li>
-          <li><a href="services.html">Sondertransporte</a></li>
+          <li><a href="services.html">Kuriertransporte</a></li>
+          <li><a href="services.html">Direktfahrten</a></li>
+          <li><a href="services.html">Expresslieferungen</a></li>
+          <li><a href="services.html">Sonderfahrten</a></li>
         </ul>
       </div>
       <div class="footer-col">
@@ -303,7 +269,6 @@
 <button class="scroll-top" aria-label="Nach oben scrollen">
   <svg viewBox="0 0 24 24"><polyline points="18 15 12 9 6 15"/></svg>
 </button>
-
 <script src="js/main.js"></script>
 </body>
 </html>

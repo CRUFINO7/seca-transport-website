@@ -1,15 +1,11 @@
 // Navbar scroll effect
 const navbar = document.querySelector('.navbar');
-const scrollTop = document.querySelector('.scroll-top');
+const scrollTopBtn = document.querySelector('.scroll-top');
 
 window.addEventListener('scroll', () => {
-  if (window.scrollY > 50) {
-    navbar?.classList.add('scrolled');
-    scrollTop?.classList.add('visible');
-  } else {
-    navbar?.classList.remove('scrolled');
-    scrollTop?.classList.remove('visible');
-  }
+  const scrolled = window.scrollY > 50;
+  navbar?.classList.toggle('scrolled', scrolled);
+  scrollTopBtn?.classList.toggle('visible', scrolled);
 });
 
 // Hamburger menu
@@ -21,7 +17,6 @@ hamburger?.addEventListener('click', () => {
   navMenu?.classList.toggle('open');
 });
 
-// Close menu on link click
 document.querySelectorAll('.nav-link').forEach(link => {
   link.addEventListener('click', () => {
     hamburger?.classList.remove('open');
@@ -39,11 +34,11 @@ document.querySelectorAll('.nav-link').forEach(link => {
 });
 
 // Scroll to top
-scrollTop?.addEventListener('click', () => {
+scrollTopBtn?.addEventListener('click', () => {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 
-// Intersection Observer for fade-in animations
+// Intersection observer for fade-in animations
 const fadeEls = document.querySelectorAll('.fade-in');
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
@@ -52,7 +47,7 @@ const observer = new IntersectionObserver((entries) => {
       observer.unobserve(entry.target);
     }
   });
-}, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+}, { threshold: 0.08, rootMargin: '0px 0px -30px 0px' });
 
 fadeEls.forEach(el => observer.observe(el));
 
@@ -61,16 +56,16 @@ const contactForm = document.querySelector('#contact-form');
 contactForm?.addEventListener('submit', (e) => {
   e.preventDefault();
   const btn = contactForm.querySelector('button[type="submit"]');
-  const origText = btn.textContent;
-  btn.textContent = 'Nachricht gesendet ✓';
+  const orig = btn.innerHTML;
+  btn.innerHTML = '✓ Nachricht gesendet';
   btn.disabled = true;
   btn.style.background = '#22c55e';
   btn.style.borderColor = '#22c55e';
   setTimeout(() => {
-    btn.textContent = origText;
+    btn.innerHTML = orig;
     btn.disabled = false;
     btn.style.background = '';
     btn.style.borderColor = '';
     contactForm.reset();
-  }, 3000);
+  }, 4000);
 });

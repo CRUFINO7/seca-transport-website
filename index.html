@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="SECA Transport Solutions UG – Ihr zuverlässiger Partner für Transport und Logistik in Deutschland und Europa. Fahrzeuge bis 3,5t, termingerecht und professionell." />
-  <title>SECA Transport Solutions UG – Transport & Logistik</title>
+  <meta name="description" content="SECA Transport Solutions UG – Schnelle, zuverlässige Transporte bis 3,5t deutschlandweit. Kurierfahrten, Direktfahrten und Expresslieferungen aus Hanau." />
+  <title>SECA Transport Solutions – Zuverlässige Transporte deutschlandweit</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -16,20 +16,21 @@
 <nav class="navbar">
   <div class="nav-inner">
     <a href="index.html" class="nav-logo">
-      <div class="logo-icon">
-        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M1 3h15v13H1z M16 8h4l3 3v5h-7V8z M5.5 19a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z M18.5 19a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/></svg>
-      </div>
-      <div class="logo-text">
-        <span class="logo-name">SECA Transport</span>
-        <span class="logo-sub">Solutions UG</span>
-      </div>
+      <img src="Seca%20Transport%20Solutions.png" alt="SECA Transport Solutions"
+           onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+      <span class="nav-logo-fallback" style="display:none;">
+        <span class="nav-logo-icon">
+          <svg viewBox="0 0 24 24"><path d="M1 3h15v13H1z M16 8h4l3 3v5h-7V8z M5.5 19a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z M18.5 19a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/></svg>
+        </span>
+        <span class="nav-logo-text">SECA <span>Transport</span></span>
+      </span>
     </a>
     <ul class="nav-menu">
       <li><a href="index.html" class="nav-link">Startseite</a></li>
       <li><a href="about.html" class="nav-link">Über uns</a></li>
       <li><a href="services.html" class="nav-link">Leistungen</a></li>
       <li><a href="contact.html" class="nav-link">Kontakt</a></li>
-      <li><a href="contact.html" class="btn btn-primary nav-cta">Angebot anfragen</a></li>
+      <li><a href="contact.html" class="btn btn-primary nav-cta">Anfrage stellen</a></li>
     </ul>
     <button class="hamburger" aria-label="Menü öffnen">
       <span></span><span></span><span></span>
@@ -39,93 +40,59 @@
 
 <!-- Hero -->
 <section class="hero">
-  <div class="hero-bg"></div>
-  <div class="hero-grid"></div>
+  <div class="hero-bg-image"></div>
+  <div class="hero-overlay"></div>
   <div class="container">
     <div class="hero-content">
-      <div class="hero-text">
-        <div class="hero-badge">Transport &amp; Logistik</div>
-        <h1 class="hero-title">
-          Zuverlässige Transporte in <span>Deutschland &amp; Europa</span>
-        </h1>
-        <p class="hero-desc">
-          SECA Transport Solutions UG steht für pünktliche, sichere und professionelle Transportlösungen. Fahrzeuge bis 3,5 Tonnen – flexibel, schnell und verlässlich.
-        </p>
-        <div class="hero-actions">
-          <a href="contact.html" class="btn btn-primary btn-lg">Jetzt Angebot anfragen</a>
-          <a href="services.html" class="btn btn-outline btn-lg">Unsere Leistungen</a>
+      <div class="hero-tag">Transport &amp; Logistik · Hanau</div>
+      <h1>Ihr Auftrag.<br /><em>Unser Versprechen.</em></h1>
+      <p>Pünktlich und zuverlässig — SECA Transport Solutions liefert.</p>
+      <div class="hero-actions">
+        <a href="contact.html" class="btn btn-primary btn-lg">Jetzt Anfrage stellen</a>
+        <a href="services.html" class="btn btn-outline-white btn-lg">Unsere Leistungen</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="num">3,5 t</div>
+          <div class="label">Max. Nutzlast</div>
         </div>
-        <div class="hero-stats">
-          <div class="stat-item">
-            <div class="stat-num">100%</div>
-            <div class="stat-label">Termintreue</div>
-          </div>
-          <div class="stat-item">
-            <div class="stat-num">EU-weit</div>
-            <div class="stat-label">Liefergebiet</div>
-          </div>
-          <div class="stat-item">
-            <div class="stat-num">24/7</div>
-            <div class="stat-label">Erreichbar</div>
-          </div>
+        <div class="hero-stat">
+          <div class="num">DE-weit</div>
+          <div class="label">Liefergebiet</div>
+        </div>
+        <div class="hero-stat">
+          <div class="num">24/7</div>
+          <div class="label">Erreichbar</div>
         </div>
       </div>
-      <div class="hero-visual">
-        <div class="truck-illustration">
-          <div class="float-badge top">✓ Versichert &amp; lizenziert</div>
-          <div class="truck-card">
-            <svg class="truck-svg" viewBox="0 0 480 220" xmlns="http://www.w3.org/2000/svg">
-              <!-- Road -->
-              <rect x="0" y="180" width="480" height="40" fill="#0f2040" rx="4"/>
-              <rect x="0" y="196" width="480" height="4" fill="#1a3255"/>
-              <!-- Road lines -->
-              <rect x="40" y="197" width="60" height="2" fill="#f59e0b" opacity="0.4"/>
-              <rect x="160" y="197" width="60" height="2" fill="#f59e0b" opacity="0.4"/>
-              <rect x="280" y="197" width="60" height="2" fill="#f59e0b" opacity="0.4"/>
-              <rect x="380" y="197" width="60" height="2" fill="#f59e0b" opacity="0.4"/>
-              <!-- Trailer body -->
-              <rect x="20" y="80" width="290" height="100" fill="#162a4a" rx="6" stroke="#f59e0b" stroke-width="1.5"/>
-              <!-- Trailer door lines -->
-              <line x1="165" y1="82" x2="165" y2="178" stroke="#0a1628" stroke-width="2"/>
-              <line x1="100" y1="130" x2="308" y2="130" stroke="#0a1628" stroke-width="1.5" opacity="0.5"/>
-              <!-- SECA text on trailer -->
-              <text x="90" y="125" font-family="Inter,sans-serif" font-size="22" font-weight="800" fill="#f59e0b" letter-spacing="3">SECA</text>
-              <text x="82" y="145" font-family="Inter,sans-serif" font-size="9" font-weight="500" fill="#94a3b8" letter-spacing="2">TRANSPORT SOLUTIONS</text>
-              <!-- Cabin -->
-              <rect x="310" y="100" width="130" height="80" fill="#1a3255" rx="6" stroke="#f59e0b" stroke-width="1.5"/>
-              <!-- Windshield -->
-              <rect x="320" y="108" width="90" height="48" fill="#0a1628" rx="4" opacity="0.8"/>
-              <rect x="324" y="112" width="82" height="40" fill="#0f2040" rx="3"/>
-              <!-- Cabin details -->
-              <rect x="412" y="108" width="20" height="20" fill="#0a1628" rx="2" opacity="0.7"/>
-              <!-- Wheels -->
-              <circle cx="80" cy="182" r="18" fill="#0a1628" stroke="#f59e0b" stroke-width="2"/>
-              <circle cx="80" cy="182" r="8" fill="#162a4a" stroke="#f59e0b" stroke-width="1.5"/>
-              <circle cx="230" cy="182" r="18" fill="#0a1628" stroke="#f59e0b" stroke-width="2"/>
-              <circle cx="230" cy="182" r="8" fill="#162a4a" stroke="#f59e0b" stroke-width="1.5"/>
-              <circle cx="360" cy="182" r="18" fill="#0a1628" stroke="#f59e0b" stroke-width="2"/>
-              <circle cx="360" cy="182" r="8" fill="#162a4a" stroke="#f59e0b" stroke-width="1.5"/>
-              <circle cx="420" cy="182" r="18" fill="#0a1628" stroke="#f59e0b" stroke-width="2"/>
-              <circle cx="420" cy="182" r="8" fill="#162a4a" stroke="#f59e0b" stroke-width="1.5"/>
-              <!-- Headlights -->
-              <rect x="432" y="118" width="8" height="12" fill="#f59e0b" rx="2" opacity="0.9"/>
-              <rect x="432" y="136" width="8" height="8" fill="#f59e0b" rx="1" opacity="0.5"/>
-              <!-- Coupling -->
-              <rect x="300" y="155" width="20" height="8" fill="#0a1628" rx="2"/>
-            </svg>
-            <div class="truck-info">
-              <div class="info-pill">
-                <div class="label">Max. Nutzlast</div>
-                <div class="value">bis 3,5 t</div>
-              </div>
-              <div class="info-pill">
-                <div class="label">Einsatzgebiet</div>
-                <div class="value">DE &amp; EU</div>
-              </div>
-            </div>
-          </div>
-          <div class="float-badge bottom">📍 Standort: Hanau</div>
+    </div>
+  </div>
+</section>
+
+<!-- Benefits -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="benefits-grid">
+      <div class="benefit-card fade-in fade-in-delay-1">
+        <div class="benefit-icon">
+          <svg viewBox="0 0 24 24"><polyline points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
         </div>
+        <h3>Schnelle Abwicklung</h3>
+        <p>Kurze Reaktionszeiten, zügige Bearbeitung — von der Anfrage bis zur Lieferung.</p>
+      </div>
+      <div class="benefit-card fade-in fade-in-delay-2">
+        <div class="benefit-icon">
+          <svg viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+        </div>
+        <h3>Zuverlässig &amp; pünktlich</h3>
+        <p>Ihre Sendung kommt an — termingerecht und in einwandfreiem Zustand.</p>
+      </div>
+      <div class="benefit-card fade-in fade-in-delay-3">
+        <div class="benefit-icon">
+          <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><line x1="23" y1="21" x2="23" y2="19"/><line x1="19" y1="21" x2="19" y2="19"/><line x1="21" y1="15" x2="21" y2="21"/></svg>
+        </div>
+        <h3>Ihr direkter Ansprechpartner</h3>
+        <p>Sie sprechen direkt mit uns — transparent und auf Augenhöhe.</p>
       </div>
     </div>
   </div>
@@ -135,97 +102,101 @@
 <section class="section">
   <div class="container">
     <div class="section-header fade-in">
-      <div class="section-tag">Unsere Leistungen</div>
-      <h2>Was wir für Sie tun</h2>
+      <div class="section-tag">Leistungen</div>
+      <h2>Was wir für Sie bewegen</h2>
       <div class="divider"></div>
-      <p>Von der Kurierfahrt bis zum europaweiten Transport – wir bieten maßgeschneiderte Logistiklösungen für Ihr Unternehmen.</p>
+      <p>Von der Kurierfahrt bis zur individuellen Logistiklösung — wir transportieren zuverlässig und persönlich.</p>
     </div>
-    <div class="cards-grid">
-      <div class="card fade-in fade-in-delay-1">
-        <div class="card-icon">
+    <div class="services-grid">
+      <div class="service-card fade-in fade-in-delay-1">
+        <div class="service-num">01</div>
+        <div class="service-icon">
           <svg viewBox="0 0 24 24"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
         </div>
-        <h3>Kurier &amp; Direkttransport</h3>
-        <p>Schnelle, direkte Lieferungen ohne Umwege. Ihre Fracht wird von A nach B gebracht – pünktlich und sicher, ob innerhalb Deutschlands oder europaweit.</p>
+        <h3>Kuriertransporte</h3>
+        <p>Schnelle, direkte Lieferungen von A nach B — zuverlässig und termingerecht.</p>
       </div>
-      <div class="card fade-in fade-in-delay-2">
-        <div class="card-icon">
-          <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      <div class="service-card fade-in fade-in-delay-2">
+        <div class="service-num">02</div>
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
         </div>
-        <h3>Regionale Transporte</h3>
-        <p>Zuverlässige Transportlösungen im Rhein-Main-Gebiet und ganz Deutschland. Wir kennen die Region und liefern termingerecht an Ihr Ziel.</p>
+        <h3>Direktfahrten &amp; Routenfahrten</h3>
+        <p>Ob einmalige Direktfahrt oder regelmäßige Routenfahrt — wir fahren nach Ihrem Zeitplan, zuverlässig und flexibel.</p>
       </div>
-      <div class="card fade-in fade-in-delay-3">
-        <div class="card-icon">
+      <div class="service-card fade-in fade-in-delay-3">
+        <div class="service-num">03</div>
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><polyline points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+        </div>
+        <h3>Expresslieferungen</h3>
+        <p>Zeitkritische Sendungen erfordern besondere Sorgfalt. Unser Expressdienst garantiert schnellste Laufzeiten — auch über Nacht und am Wochenende.</p>
+      </div>
+      <div class="service-card fade-in fade-in-delay-1">
+        <div class="service-num">04</div>
+        <div class="service-icon">
           <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
         </div>
-        <h3>Europaweite Logistik</h3>
-        <p>Transporte in die gesamte EU und darüber hinaus. Mit fundierter Erfahrung und zuverlässigen Partnernetzwerken bringen wir Ihre Waren ans Ziel.</p>
+        <h3>Sonderfahrten</h3>
+        <p>Kurzfristig, außerhalb der Norm oder zu ungewöhnlichen Zeiten — wir sind auch dann für Sie da, wenn andere nicht fahren.</p>
       </div>
-      <div class="card fade-in fade-in-delay-1">
-        <div class="card-icon">
-          <svg viewBox="0 0 24 24"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+      <div class="service-card fade-in fade-in-delay-2">
+        <div class="service-num">05</div>
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
         </div>
-        <h3>Sondertransporte</h3>
-        <p>Für besondere Anforderungen bieten wir individuelle Transportlösungen mit spezieller Handhabung, Termingarantien und persönlichem Ansprechpartner.</p>
+        <h3>Deutschlandweite Abholung &amp; Lieferung</h3>
+        <p>Wir holen ab und liefern — deutschlandweit, persönlich betreut von Anfang bis Ende.</p>
       </div>
-      <div class="card fade-in fade-in-delay-2">
-        <div class="card-icon">
-          <svg viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
-        </div>
-        <h3>Echtzeit-Tracking</h3>
-        <p>Volle Transparenz über den Status Ihrer Sendung. Wir halten Sie über jede Phase Ihres Transports informiert – für maximale Planungssicherheit.</p>
-      </div>
-      <div class="card fade-in fade-in-delay-3">
-        <div class="card-icon">
+      <div class="service-card fade-in fade-in-delay-3">
+        <div class="service-num">06</div>
+        <div class="service-icon">
           <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
         </div>
-        <h3>Versicherte Transporte</h3>
-        <p>Alle unsere Transporte sind vollumfänglich versichert. Ihre Waren sind bei uns in sicheren Händen – von der Abholung bis zur Zustellung.</p>
+        <h3>Individuelle Logistiklösungen</h3>
+        <p>Sondertransporte, sensible Güter — wir entwickeln maßgeschneiderte Lösungen für Ihre speziellen Anforderungen und besprechen jeden Auftrag persönlich.</p>
       </div>
     </div>
-    <div style="text-align:center; margin-top:2.5rem;">
+    <div style="text-align:center;margin-top:2.5rem;">
       <a href="services.html" class="btn btn-outline">Alle Leistungen ansehen →</a>
     </div>
   </div>
 </section>
 
-<!-- Why Us -->
+<!-- About Teaser -->
 <section class="section section-alt">
   <div class="container">
-    <div class="section-header fade-in">
-      <div class="section-tag">Warum SECA</div>
-      <h2>Ihre Vorteile mit uns</h2>
-      <div class="divider"></div>
-    </div>
-    <div class="values-grid">
-      <div class="value-item fade-in fade-in-delay-1">
-        <div class="value-icon">
-          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+    <div class="about-grid">
+      <div class="about-image fade-in">
+        <img
+          src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
+          alt="SECA Transport — zuverlässige Logistik"
+          loading="lazy"
+        />
+        <div class="about-badge">
+          <div class="about-badge-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <div class="about-badge-text">
+            <div class="num">100%</div>
+            <div class="label">Zuverlässigkeit</div>
+          </div>
         </div>
-        <h4>Pünktlichkeit</h4>
-        <p>Termintreue ist kein Versprechen – sie ist unser Standard. Ihre Fracht kommt an, wann sie soll.</p>
       </div>
-      <div class="value-item fade-in fade-in-delay-2">
-        <div class="value-icon">
-          <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+      <div class="about-text fade-in">
+        <div class="section-tag">Über uns</div>
+        <h2>Inhabergeführt.<br />Persönlich betreut.</h2>
+        <p>SECA Transport Solutions ist ein junges, inhabergeführtes Transportunternehmen aus Hanau. Wir stehen für schnelle, zuverlässige Transporte bis 3,5t — deutschlandweit und persönlich betreut.</p>
+        <p>Wir arbeiten kontinuierlich daran, unser Leistungsangebot auszubauen und unseren Kunden künftig noch mehr Lösungen bieten zu können. SECA wächst — mit dem Anspruch, langfristig ein verlässlicher Partner für Transport und Logistik zu sein.</p>
+        <div class="about-list">
+          <div class="about-list-item">Fahrzeuge bis 3,5 Tonnen</div>
+          <div class="about-list-item">Deutschlandweit unterwegs</div>
+          <div class="about-list-item">Direkter Ansprechpartner</div>
+          <div class="about-list-item">Schnelle Reaktionszeiten</div>
         </div>
-        <h4>Persönlicher Service</h4>
-        <p>Als inhabergeführtes Unternehmen legen wir großen Wert auf persönliche Betreuung und direkte Kommunikation.</p>
-      </div>
-      <div class="value-item fade-in fade-in-delay-3">
-        <div class="value-icon">
-          <svg viewBox="0 0 24 24"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+        <div style="margin-top:2rem;">
+          <a href="about.html" class="btn btn-outline">Mehr über uns →</a>
         </div>
-        <h4>Faire Preise</h4>
-        <p>Transparente Preisgestaltung ohne versteckte Kosten. Qualität und Zuverlässigkeit zu einem fairen Preis-Leistungs-Verhältnis.</p>
-      </div>
-      <div class="value-item fade-in fade-in-delay-4">
-        <div class="value-icon">
-          <svg viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-        </div>
-        <h4>Zuverlässigkeit</h4>
-        <p>Auf uns können Sie sich verlassen. Wir halten, was wir versprechen – bei jedem Auftrag, jede Fahrt.</p>
       </div>
     </div>
   </div>
@@ -239,26 +210,26 @@
       <h2>Ihr Transport in 4 Schritten</h2>
       <div class="divider"></div>
     </div>
-    <div class="process-steps">
+    <div class="process-grid">
       <div class="process-step fade-in fade-in-delay-1">
-        <div class="step-num">1</div>
+        <div class="step-circle">1</div>
         <h4>Anfrage stellen</h4>
-        <p>Kontaktieren Sie uns per Telefon, E-Mail oder über unser Kontaktformular mit Ihren Transportdetails.</p>
+        <p>Kontaktieren Sie uns — per Formular, Telefon oder E-Mail.</p>
       </div>
       <div class="process-step fade-in fade-in-delay-2">
-        <div class="step-num">2</div>
+        <div class="step-circle">2</div>
         <h4>Angebot erhalten</h4>
-        <p>Wir erstellen Ihnen schnell und unkompliziert ein individuelles, transparentes Angebot.</p>
+        <p>Wir erstellen Ihnen schnell ein transparentes, individuelles Angebot.</p>
       </div>
       <div class="process-step fade-in fade-in-delay-3">
-        <div class="step-num">3</div>
+        <div class="step-circle">3</div>
         <h4>Auftrag bestätigen</h4>
-        <p>Nach Ihrer Bestätigung planen wir den Transport und koordinieren alle Details mit Ihnen.</p>
+        <p>Nach Ihrer Bestätigung planen wir alles — pünktlich und reibungslos.</p>
       </div>
       <div class="process-step fade-in fade-in-delay-4">
-        <div class="step-num">4</div>
+        <div class="step-circle">4</div>
         <h4>Lieferung &amp; Abschluss</h4>
-        <p>Ihre Ware wird termingerecht zugestellt. Sie erhalten eine Lieferbestätigung und alle Unterlagen.</p>
+        <p>Zustellung termingerecht, Lieferbestätigung inklusive.</p>
       </div>
     </div>
   </div>
@@ -269,13 +240,10 @@
   <div class="container">
     <div class="cta-banner fade-in">
       <h2>Bereit für Ihren nächsten Transport?</h2>
-      <p>Kontaktieren Sie uns noch heute und erhalten Sie innerhalb kurzer Zeit ein individuelles Angebot für Ihren Transportbedarf.</p>
+      <p>Kontaktieren Sie uns und erhalten Sie schnell ein individuelles Angebot — persönlich und ohne Umwege.</p>
       <div class="cta-actions">
-        <a href="contact.html" class="btn btn-primary btn-lg">Angebot anfragen</a>
-        <a href="tel:+49" class="btn btn-outline btn-lg">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13.1a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.06 6.06l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 17z"/></svg>
-          Jetzt anrufen
-        </a>
+        <a href="contact.html" class="btn btn-white btn-lg">Jetzt Anfrage stellen</a>
+        <a href="tel:+49" class="btn btn-outline-white btn-lg">Jetzt anrufen</a>
       </div>
     </div>
   </div>
@@ -286,16 +254,17 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <a href="index.html" class="nav-logo" style="display:inline-flex;">
-          <div class="logo-icon">
-            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M1 3h15v13H1z M16 8h4l3 3v5h-7V8z M5.5 19a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z M18.5 19a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/></svg>
+        <div class="footer-logo">
+          <img src="Seca%20Transport%20Solutions.png" alt="SECA Transport Solutions"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+          <div class="footer-logo-fallback" style="display:none;">
+            <div class="footer-logo-icon">
+              <svg viewBox="0 0 24 24"><path d="M1 3h15v13H1z M16 8h4l3 3v5h-7V8z M5.5 19a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z M18.5 19a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/></svg>
+            </div>
+            <span class="footer-logo-name">SECA Transport Solutions</span>
           </div>
-          <div class="logo-text">
-            <span class="logo-name">SECA Transport</span>
-            <span class="logo-sub">Solutions UG</span>
-          </div>
-        </a>
-        <p>Ihr zuverlässiger Partner für Transport und Logistik in Deutschland und ganz Europa. Fahrzeuge bis 3,5 Tonnen – flexibel, schnell, verlässlich.</p>
+        </div>
+        <p>Schnelle, zuverlässige Transporte bis 3,5t — deutschlandweit und persönlich betreut. Standort: Hanau.</p>
       </div>
       <div class="footer-col">
         <h4>Navigation</h4>
@@ -309,10 +278,10 @@
       <div class="footer-col">
         <h4>Leistungen</h4>
         <ul>
-          <li><a href="services.html">Kurierfahrten</a></li>
-          <li><a href="services.html">Direkttransporte</a></li>
-          <li><a href="services.html">EU-Transporte</a></li>
-          <li><a href="services.html">Sondertransporte</a></li>
+          <li><a href="services.html">Kuriertransporte</a></li>
+          <li><a href="services.html">Direktfahrten</a></li>
+          <li><a href="services.html">Expresslieferungen</a></li>
+          <li><a href="services.html">Sonderfahrten</a></li>
         </ul>
       </div>
       <div class="footer-col">
