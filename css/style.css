@@ -46,13 +46,28 @@ h1, h2, h3, h4 {
   line-height: 1.2;
   color: var(--black);
   letter-spacing: -0.02em;
+  hyphens: none;
+  word-break: normal;
+  overflow-wrap: normal;
 }
 h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); }
 h2 { font-size: clamp(1.7rem, 3.5vw, 2.6rem); }
 h3 { font-size: clamp(1.1rem, 2vw, 1.35rem); }
 h4 { font-size: 1rem; }
-p { color: var(--gray-600); margin-bottom: 1rem; line-height: 1.75; }
+p {
+  color: var(--gray-600);
+  margin-bottom: 1rem;
+  line-height: 1.75;
+  hyphens: none;
+  word-break: normal;
+  overflow-wrap: normal;
+}
 p:last-child { margin-bottom: 0; }
+li {
+  hyphens: none;
+  word-break: normal;
+  overflow-wrap: normal;
+}
 
 /* ===== Layout ===== */
 .container {
@@ -164,7 +179,7 @@ p:last-child { margin-bottom: 0; }
   text-decoration: none;
 }
 .nav-logo img {
-  height: 38px;
+  height: 60px;
   width: auto;
   display: block;
 }
@@ -244,12 +259,7 @@ p:last-child { margin-bottom: 0; }
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    105deg,
-    rgba(10,12,20,0.78) 0%,
-    rgba(10,12,20,0.55) 50%,
-    rgba(10,12,20,0.35) 100%
-  );
+  background: rgba(0,0,0,0.5);
   z-index: 1;
 }
 .hero-content {
